@@ -79,7 +79,7 @@ const HomeScreen = () => {
       }}
     >
       <>
-        <h1 style={{ fontSize: '2rem', marginBottom: '2rem', color: 'white' }}>{user.email} has logged in</h1>
+        <h1 style={{ fontSize: '2rem', marginBottom: '2rem', color: 'white' }}>{user.email} is okay</h1>
         <button style={{ backgroundColor: '#4285F4', color: 'white', padding: '1rem', borderRadius: '0.5rem', border: 'none', cursor: 'pointer' }} onClick={handleSignOut}>Log Out</button>
       </>
     </div>
